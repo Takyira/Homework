@@ -41,3 +41,8 @@ function servePizza(obj) {
 }
 
 console.log(servePizza());
+
+console.log(greetCustomer);
+console.log(getPizzaOrder);
+console.log(preparePizza());
+console.log(servePizza());
