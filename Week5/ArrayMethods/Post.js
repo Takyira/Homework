@@ -618,6 +618,6 @@ function stuffPairs(thing) {
   newArray.push(thing.title);
   // newArray.push(thing2.body);
 }
-data.forEach(thing2 => stuffPairs(thing2));
+data.map(thing2 => stuffPairs(thing2));
 console.log(newArray);
 

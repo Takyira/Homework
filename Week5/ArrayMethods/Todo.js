@@ -1216,3 +1216,5 @@ const data = [
 const user9IncompleteTasks = user9ToDos.filter(task => task.completed === false);
 
 console.log(user9IncompleteTasks);
+
+console.log(user9IncompleteTasks.length);
