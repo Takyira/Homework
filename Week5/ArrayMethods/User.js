@@ -242,5 +242,5 @@ function web(thing) {
   webMail.push(thing.email);
   // webMail.push(thing.website);
 }
-data.forEach(thing2 => web(thing2));
+data.map(thing2 => web(thing2));
 console.log(webMail);
